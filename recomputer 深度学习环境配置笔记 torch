@@ -5,3 +5,5 @@
 			>>> torch.cuda.is_available()
 			True
 			这样就说明gpu可用了
+
+遇到链接库报错的，可能是路径加载不对，要改环境变量
