@@ -1,0 +1,7 @@
+按照seeed的lerobot流程走下来原本难搞的是深度学习3件套（cuda->cudnn->torch）
+实际上jatpack就算jetson专门准备的已经安装好（cuda和cudnn了）
+跟着教程只需要pip 对应torch和torchvision就行（不加sudo）
+在conda里面进入python环境>>> import torch
+			>>> torch.cuda.is_available()
+			True
+			这样就说明gpu可用了
